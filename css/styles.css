@@ -62,9 +62,16 @@ font-size: 14px;
 }
 .main-list {
   display: flex;
+  flex-wrap: wrap;
  gap: 65px;
  padding: 15px 20px;
  margin: 0 auto;
+}
+.main-list-item {
+  width:420px;
+}
+.main-list-img {
+  margin-bottom: 110px;
 }
 .main-list-subtitle {
   color:var(--add-color);
@@ -76,6 +83,7 @@ font-size: 14px;
   color: var(--main-color);
 font-family: Playfair Display;
 font-size: 30px;
+margin-bottom: 40px;
 }
 .main-list-text {
   color: var(--main-color);
